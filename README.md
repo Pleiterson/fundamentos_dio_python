@@ -1,7 +1,3 @@
-[@rafaelgalleani](https://www.youtube.com/c/RafaelGalleani)            |  [@digitalinnovationone](https://digitalinnovation.one/)
-:-------------------------:|:-------------------------:
-![](images/galleani.png)  |  ![](images/dio.png)
-
 # Python Fudamentos
 
 ### Curso Fundamentos em Python ministrados na plataforma [DIO](https://digitalinnovation.one/)
