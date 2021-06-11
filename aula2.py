@@ -1,7 +1,7 @@
 a = int(input('Entre com o primeiro valor: ')) # input pega do teclado o valor digitado pelo usuário e converte ele para inteiro com int() na variável a
 b = int(input('Entre com o segundo valor: ')) # input pega do teclado o valor digitado pelo usuário e converte ele para inteiro com int() na variável b
 
-print(type(a))
+print(type(a)) # imprimindo o tipo da variável a, no caso inteiro int
 
 soma = a + b # operador de soma
 subtracao = a - b # operador de subtração
