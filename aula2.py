@@ -22,6 +22,6 @@ resultado = (
 
 print(resultado) # imprimindo na tela o resultado das operações
 
-# x = '1' # definido automaticamente o valor como uma string
-# # soma2 = int(x) + 1 # não há como somar um valor int com uma string
-# # print(soma2)
+x = '1' # definido automaticamente o valor como uma string
+soma2 = int(x) + 1 # não há como somar um valor int com uma string
+print(soma2)
