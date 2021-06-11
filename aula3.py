@@ -1,21 +1,17 @@
 # verificando a nota e média de alunos com valores abaixo de 10
 a = int(input('Primeiro bimestre: '))
-
 if a > 10: # entra se a for maior que 10
   a = int(input('Você digitou errado. Primeiro bimestre: '))
 
 b = int(input('Segundo bimestre: '))
-
 if b > 10: # entra se b for maior que 10
   b = int(input('Você digitou errado. Segundo bimestre: '))
 
 c = int(input('Terceiro bimestre: '))
-
 if c > 10: # entra se c for maior que 10
   c = int(input('Você digitou errado. Terceiro bimestre: '))
 
 d = int(input('Quanto bimestre: '))
-
 if d > 10: # entra se d for maior que 10
   d = int(input('Você digitou errado. Quanto bimestre: '))
 
