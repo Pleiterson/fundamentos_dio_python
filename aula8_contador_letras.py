@@ -1,3 +1,4 @@
+# função que conta as letras de uma lista de palavras
 def contador_letras(lista_palavras):
     contador = []
     for x in lista_palavras:
@@ -8,6 +9,7 @@ def contador_letras(lista_palavras):
 def teste():
     return 'teste'
 
+# método main
 if __name__ == '__main__':
     lista = ['cachorro', 'gato']
     print(contador_letras(lista))
