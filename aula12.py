@@ -1,8 +1,9 @@
 import requests
 
 def retorna_dados_cep(cep):
-    response = requests.get('https://viacep.com.br/ws/{}/json/'.format(cep))
+    response = requests.get('https://viacep.com.br/ws/74853030/json/') # .format(cep))
     print(response.status_code)
+    print(response.text) # vai imprimir todo o texto
     print(response.json())
     dados_cep = response.json()
     print(dados_cep['logradouro'])
@@ -21,6 +22,7 @@ def retorna_response(url):
 if __name__ == '__main__':
     response = retorna_response('https://globallabs.academy/')
     print(response)
-    #retorna_dados_cep('22041001')
-    #dados_pokemon = retorna_dados_pokemon('pikachu')
-    #print(dados_pokemon['sprites']['front_shiny'])
+
+    retorna_dados_cep('74853030')
+    dados_pokemon = retorna_dados_pokemon('pikachu')
+    print(dados_pokemon['sprites']['front_shiny'])
